@@ -1,0 +1,3 @@
+# odin-recipes
+A site that shows some food recipes...
+In this project i will work with HTML and GIT.
