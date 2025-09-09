@@ -8,24 +8,54 @@ body {
     background-color:#101828;
 }
 
-h1,ol,li {
+h1,ol,li,h2,p,ul{
     color: white;
-    margin: 0 auto;
+    margin: 8px auto;
 }
-ol {
-    height: 100px;
-    width: 200px;
+ol,ul {
     padding-top: 5px;
     padding-left: 20px;
     border-radius: 0.5rem;
+    padding-bottom: 5px;
 }
 
-h1 {
+ol {
     height: 100px;
     width: 200px;
+}
+
+h1,h2 {
+    height: 40px;
+    width: auto;
+    text-align: center;
     font-family:'Times New Roman', Times,Georgia, serif; /*serif as fallback*/
 }
 
 .section {
     background-color: #364153;
+}
+
+img {
+    width: 300px; 
+    height: 300px;
+    margin: auto;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.centerp {
+    height: auto;
+    width:  260px;
+    padding: 8px;
+    border-radius: 0.5rem;
+}
+
+.measuresing {
+    height: auto;
+    width: 200px;
+}
+
+.measuresteps {
+    height: auto;
+    width: 500px;
 }
